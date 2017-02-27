@@ -1,0 +1,25 @@
+<footer id="footer">
+	<p>
+		<span>&copy; Towry Wang 2017, All rights reserved.</span>
+		<a href="http://twitter.com/tovvry">@tovvry</a>
+		<span>·</span>
+		<a href="{{ .RSSLink }}">RSS</a>
+		<span>·</span>
+		<a href="#top">Top</a>
+	</p>
+</footer>
+</div><!-- container -->
+<script type="text/javascript" src="http://cdnjs.gtimg.com/cdnjs/libs/zepto/1.1.4/zepto.min.js
+"></script>
+<script src="{{ .Site.BaseURL }}js/main.js"></script>
+<script type="text/javascript">
+;(function () {
+	var hljs = window.hljs;
+	$('pre code').each(function (i, block) {
+		hljs.highlightBlock(block);
+	});
+}).call(this);
+</script>
+{{ template "_internal/google_analytics.html" . }}
+</body>
+</html>

@@ -1,0 +1,18 @@
+{{ partial "header.html" . }}
+
+<h4><a href="{{ .Site.BaseURL }}">« Home</a></h4>
+<div class="two-layout">
+	<section class="post">
+		<time class="post-date" datetime="{{ .Date }}">{{ .Date.Format "1 January 2006" }}</time>
+		<h1 class="title">{{ .Title }}</h1>
+		<article class="content">
+			{{ .Content }}
+		</article>
+		<div class="end-of-post"><span class="eof">EOF</span></div>
+		<h3>Comments</h3>
+		{{ partial "disqus.html" . }}
+	</section>
+	{{ partial "aside.html" . }}
+</div>
+
+{{ partial "footer.html" . }}
