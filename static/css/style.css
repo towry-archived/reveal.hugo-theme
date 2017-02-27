@@ -41,6 +41,10 @@ ol > li {
 	margin-bottom: 0.75rem;
 }
 
+li p {
+	margin-bottom: 1rem;
+}
+
 b, strong {
 	font-weight: 500;
 }
