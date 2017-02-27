@@ -127,6 +127,22 @@ li > h6 {
 }
 
 
+blockquote {
+	color: #74747a;
+	border-left: 1em solid #f5f5f6;
+	padding-left: 1rem;
+	margin-left: -2rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	margin-right: 1.3rem;
+}
+
+.datetime {
+	font-size: 0.87rem;
+	color: #9c9c9c;
+	margin-left: 7px;
+}
+
 /*
 	layout
 -------------------------------------*/
@@ -233,11 +249,11 @@ li > h6 {
 }
 
 .post .end-of-post {
-	padding-top: 1.25rem;
+	padding-top: 2rem;
 	font-size: 0.7rem;
 	border-bottom: 1px solid #eee;
 	text-align: center;
-	margin-bottom: 2.25rem;
+	margin-bottom: 2.5rem;
 }
 
 .end-of-post .eof {
@@ -279,6 +295,13 @@ li > h6 {
 
 	ul, ol {
 		margin-left: 0rem;
+	}
+
+	blockquote {
+		margin-left: 0;
+		padding-left: 0.5rem;
+		border-left-width: 0.4rem;
+		margin-right: 1rem;
 	}
 }
 

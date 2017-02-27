@@ -1,3 +1,6 @@
 <li>
-	<h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+	<h4>
+		<a href="{{ .Permalink }}">{{ .Title }}</a>
+		<time class="datetime" datetime="{{ .Date }}">{{ .Date.Format "1 January 2006" }}</time>
+	</h4>
 </li>
