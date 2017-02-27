@@ -148,7 +148,7 @@ blockquote {
 -------------------------------------*/
 .container {
 	position: relative;
-	max-width: 660px;
+	max-width: 860px;
 	margin: 0 auto;
 	padding: 4rem 2rem 0;
 }
@@ -156,8 +156,7 @@ blockquote {
 .widgets-wrapper {
 	position: relative;
 	z-index: 2;
-	min-width: 230px;
-	margin-left: 50px;
+	margin-left: 20px;
 	margin-top: 7rem;
 }
 
@@ -167,7 +166,7 @@ blockquote {
 }
 
 .post {
-	width: 100%;
+	width: 600px;
 	flex-grow: 1;
 }
 
@@ -309,6 +308,10 @@ blockquote {
 @media screen and (max-width: 760px) {
 	.two-layout {
 		display: block;
+	}
+
+	.post {
+		width: auto;
 	}
 
 	.widgets-wrapper {
