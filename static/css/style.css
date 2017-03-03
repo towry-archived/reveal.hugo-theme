@@ -49,6 +49,7 @@ b, strong {
 	font-weight: 500;
 }
 
+table,
 p {
 	margin-bottom: 2rem;
 }
@@ -120,6 +121,7 @@ td > code {
 }
 
 table.with-courtesy {
+	margin-bottom: 0.3rem;
 }
 
 li > h2,
