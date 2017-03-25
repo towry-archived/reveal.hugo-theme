@@ -4,6 +4,8 @@
 <div class="two-layout">
 	<section class="post">
 		<time class="post-date" datetime="{{ .Date }}">{{ .Date.Format "1 January 2006" }}</time>
+		<span>・</span>
+		<a href="https://github.com/towry/towry.me/blob/master/content/{{ .File.Path }}">edit</a>
 		<h1 class="title">{{ .Title }}</h1>
 		<article class="content">
 			{{ .Content }}
